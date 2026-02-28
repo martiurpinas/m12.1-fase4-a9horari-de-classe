@@ -4,20 +4,47 @@ body {
     background-color: #f7f7f7;
     color: #333;
 }
+
+/* schedule table */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    table-layout: fixed;           /* make cells equal width */
 }
 th, td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
 }
 th {
-    background-color: #4CAF50;
+    background-color: #555;   /* darker header similar to screenshot */
     color: white;
 }
+
+/* page heading */
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* alternate row color for readability */
 tr:nth-child(even) {
     background-color: #eaf2e3;
 }
+
+/* subject colors */n.fol { background: #f4a460; }
+.si  { background: #ffff66; }
+.bbdd{ background: #4c6ef5; color: white; }
+.eie { background: #ffb6c1; }
+.prog{ background: #a9a9a9; }
+.pax { background: #32cd32; color: white; }
+.tut { background: #98fb98; }
+.pati{ background: #dcd6f7; }
+.llm { background: #ff4500; color: white; }
+.ed  { background: #ff66cc; }
+
+/* ensure colspan cell stretches */
+td[colspan] { text-align: center; font-weight: bold; }
