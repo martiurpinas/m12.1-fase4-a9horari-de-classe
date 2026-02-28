@@ -49,3 +49,6 @@ tr:nth-child(even) {
 
 /* ensure colspan cell stretches */
 td[colspan] { text-align: center; font-weight: bold; }
+
+/* make first column (time slots) have white background */
+tbody td:first-child { background-color: white; }
