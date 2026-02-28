@@ -35,7 +35,8 @@ tr:nth-child(even) {
     background-color: #eaf2e3;
 }
 
-/* subject colors */n.fol { background: #f4a460; }
+/* subject colors */
+.fol { background: #f4a460; }
 .si  { background: #ffff66; }
 .bbdd{ background: #4c6ef5; color: white; }
 .eie { background: #ffb6c1; }
